@@ -1,0 +1,79 @@
+body{
+  background-color: aqua;
+}
+
+h2{
+  color: red;
+}
+
+
+body, html {
+  height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+/*addind a darken background effect to the image (hero.jpg) with "linear-gradient" so that the text easier to read */
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/hero.jpg");
+
+height: 50%;
+
+/* Positioning and centering the image to scale nicely on all screens */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+/* Placing text in the middle of the image */
+.hero-text {
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+}
+
+#myInput {
+    background-image: url('/css/searchicon.png'); /* Adding a search icon to input */
+    background-position: 10px 12px; /* Positioning the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 50%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Adding some padding */
+    border: 1px solid rgb(8, 8, 8); /* Adding a grey border */
+    margin-bottom: 12px; /* Adding some space below the input */
+    float: right;
+  }
+  
+  #myTable {
+    border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width */
+    font-size: 18px; /* Increase font-size */
+    margin-top: 30%;
+  }
+  
+  #myTable th, #myTable td {
+    text-align: left; /* Left-align text */
+    padding: 24px; /* Adding padding */
+  }
+  
+   
+  
+  #myTable tr.header, #myTable tr:hover {
+    /* Add a grey background color to the table header and on hover */
+    background-color: #f1f1f1;
+  }
+
+
+  .heading{
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    text-align: center;
+    display: inline-block;
+    top: 60%;
+  }
+
+
